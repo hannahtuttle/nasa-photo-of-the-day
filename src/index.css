@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
@@ -23,5 +25,10 @@ nav {
 }
 
 .nav a {
-  color: black;
+  color: white;
+}
+
+.photo-description{
+  width: 70%;
+  margin-left: 15%;
 }
