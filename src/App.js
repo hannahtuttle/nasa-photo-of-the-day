@@ -1,5 +1,6 @@
 import React from "react";
 import Header from './components/header.js'
+import Footer from './components/footer.js'
 import "./App.css";
 
 function App() {
@@ -12,9 +13,7 @@ function App() {
         app! Have fun 🚀!
       </p>
      </section>
-      <footer>
-
-      </footer>
+      <Footer />
     </div>
   );
 }
