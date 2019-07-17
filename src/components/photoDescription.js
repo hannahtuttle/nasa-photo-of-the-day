@@ -5,3 +5,5 @@ function Description(props) {
 
     return <p>{photoDescription}</p>
 }
+
+export default Description

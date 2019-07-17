@@ -2,7 +2,7 @@ import React from 'react'
 
 function Nav() {
     
-    return <nav>
+    return <nav className = "nav">
         <a href='#'>Home</a>
         <a href='#'>Services</a>
         <a href='#'>About</a>

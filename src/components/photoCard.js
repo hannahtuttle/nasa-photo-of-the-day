@@ -4,7 +4,7 @@ import Description from './photoDescription.js'
 
 function PhotoCard() {
     const [photo, setPhoto] = useState ("")
-    const [describe, setDescribe] = useState('')
+    const [describe, setDescribe] = useState("")
 
     useEffect(() => {
         axios
@@ -18,8 +18,8 @@ function PhotoCard() {
         })
     }, [])
 
-    return (<img src={photo} alt = 'space photo'></img>
-                <Description photoDescription={describe}/>)
+    return <img src={photo} alt = 'space photo'></img>
+                // <Description photoDescription={describe} />
 }
 
 export default PhotoCard
