@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Description(props) {
-    const {photoDescription} = props
+function Description({photoDescription, copyright}) {
 
-    return <p>{photoDescription}</p>
+    return <div>
+        <p>(C) {copyright}</p>
+        <p>{photoDescription}</p>
+        </div>
 }
 
 export default Description
