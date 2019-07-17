@@ -9,11 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <section>
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-      {/* <PhotoCard /> */}
+      
+      <PhotoCard />
      </section>
       <Footer />
     </div>
