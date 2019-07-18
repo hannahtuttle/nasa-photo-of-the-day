@@ -13,6 +13,7 @@ const StyledNav = styled.nav`
 
 const StyledA = styled.a`
     color: white;
+    text-decoration: none;
 `;
 
 function Nav() {

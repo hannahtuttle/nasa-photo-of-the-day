@@ -3,6 +3,7 @@ import HeaderText from './components/header.js'
 import Footer from './components/footer.js'
 import PhotoCard from './components/photoCard.js'
 import MenuInputs from './components/inputMenu.js'
+import SubmitForm from './components/form.js'
 
 
 import "./App.css";
@@ -13,9 +14,10 @@ function App() {
       <HeaderText />
       <MenuInputs />
       <section>
-      
       <PhotoCard />
+       
      </section>
+    <SubmitForm />
       <Footer />
     </div>
   );
