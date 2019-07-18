@@ -1,11 +1,20 @@
 import React from 'react'
 import Nav from './nav.js'
+import { Header } from 'semantic-ui-react'
 
-function Header() {
-    return <header className ="header">
-        <h1>NASA photo of the day!</h1>
+function HeaderText() {
+    return <div>
+        <Header as='h1' block>
+        NASA photo of the day!
+        </Header>
         <Nav />
-        </header>
+        </div>
+    
+    
+    // <header className ="header">
+    //     <h1>NASA photo of the day!</h1>
+    //     <Nav />
+    //     </header>
 }
 
-export default Header
+export default HeaderText
