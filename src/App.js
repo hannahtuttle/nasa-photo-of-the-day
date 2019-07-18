@@ -4,6 +4,7 @@ import Footer from './components/footer.js'
 import PhotoCard from './components/photoCard.js'
 import MenuInputs from './components/inputMenu.js'
 import SubmitForm from './components/form.js'
+import DatePickers from './components/dateSelector.js'
 
 
 import "./App.css";
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <HeaderText />
       <MenuInputs />
+      <DatePickers />
       <section>
       <PhotoCard />
        
