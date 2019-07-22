@@ -1,17 +1,25 @@
 import React from "react";
-import Header from './components/header.js'
+import HeaderText from './components/header.js'
 import Footer from './components/footer.js'
 import PhotoCard from './components/photoCard.js'
+import MenuInputs from './components/inputMenu.js'
+import SubmitForm from './components/form.js'
+import DatePickers from './components/dateSelector.js'
+
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <HeaderText />
+      <MenuInputs />
+      <DatePickers />
       <section>
-      
       <PhotoCard />
+       
      </section>
+    <SubmitForm />
       <Footer />
     </div>
   );

@@ -14,7 +14,7 @@ code {
     monospace;
 }
 
-nav {
+/* nav {
   width: 70%;
   margin-left: 15%;
   margin-top:5%;
@@ -22,13 +22,13 @@ nav {
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
-}
+} */
 
-.nav a {
+/* .nav a {
   color: white;
-}
+} */
 
-.photo-description{
+/* .photo-description{
   width: 70%;
   margin-left: 15%;
-}
+} */
